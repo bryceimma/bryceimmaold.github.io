@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on GipSite Bryce</title>
+    <link>http://bryceimma.github.io:80/post/</link>
+    <description>Recent content in Posts on GipSite Bryce</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>ï¿½ 2015 Immaculata Instituut Oostmalle</copyright>
+    <lastBuildDate>Wed, 21 Oct 2015 17:51:46 +0200</lastBuildDate>
+    <atom:link href="http://bryceimma.github.io:80/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>workflows</title>
+      <link>http://bryceimma.github.io/2015/10/21/workflows/</link>
+      <pubDate>Wed, 21 Oct 2015 17:51:46 +0200</pubDate>
+      
+      <guid>http://bryceimma.github.io/2015/10/21/workflows/</guid>
+      <description>
+
+&lt;h1 id=&#34;vergelijking-workflows:fb1fa01592006b281b5dab056da87dae&#34;&gt;vergelijking workflows&lt;/h1&gt;
+
+&lt;p&gt;Met HUGO maak je zelf een static site aan de hand van layouts. De content vul je op met Markdown bestanden.&lt;/p&gt;
+
+&lt;p&gt;Enkele voordelen van een static site na dat de layout volledig klaar is:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Snel en eenvoudig nieuwe posts maken met markdown files&lt;/li&gt;
+&lt;li&gt;gemakkelijk uploaden via git&lt;/li&gt;
+&lt;li&gt;via config kan je categories en tags maken&lt;/li&gt;
+&lt;li&gt;al je posts in 1 map&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Enkele nadelen:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;moeilijk een layout maken&lt;/li&gt;
+&lt;li&gt;moeilijk je layout aanpassen naar jou wens&lt;/li&gt;
+&lt;li&gt;soms moeilijker om te begrijpen&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Met hugo kan je dus mooie en goede blogs aanmaken en hosten op een geswenst platform.&lt;/p&gt;
+
+&lt;p&gt;Er zijn ook andere systemen zoals Wordpress. Deze is voornamelijk (en dus het simpelste) webbased.&lt;/p&gt;
+
+&lt;p&gt;In het algemeen is een systeem als Wordpress veel gemakkelijker dan een static generator.&lt;/p&gt;
+
+&lt;p&gt;Enkele voordelen van Wordpress:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Gemakkelijk posts maken via de website&lt;/li&gt;
+&lt;li&gt;post makkelijker beheren&lt;/li&gt;
+&lt;li&gt;layout makkelijker opmaken&lt;/li&gt;
+&lt;li&gt;weinig tot geen kennis vereist&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Enkele nadalen:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;minder vrij in layout opmaak&lt;/li&gt;
+&lt;li&gt;je moet je plaatselijk aanmelden om iets te veranderen of een nieuwe post aan te maken&lt;/li&gt;
+&lt;li&gt;de gratis versie heeft een watermerk op je blog waardoor iedereen kan zien dat je het via Wordpress hebt gemaakt&lt;/li&gt;
+&lt;li&gt;je kan het niet zomaar hosten op je eigen server&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;conclusie:fb1fa01592006b281b5dab056da87dae&#34;&gt;conclusie:&lt;/h3&gt;
+
+&lt;p&gt;Wil je snel en eenvoudig een blog maken om bijvoorbeeld taken te delen of verslagen te publiceren, dan kan je het best houden bij een systeem als Wordpress. Wil je liever iets professioneel? Dan kan je gebruik maken van een static site. Merk wel op dat deze veel meer tijd nodig heeft om te maken, en dat enige kennis wel noodzakelijk is.&lt;/p&gt;
+
+&lt;p&gt;link naar de source-repository op &lt;a href=&#34;https://gitlab.com/bryce-vandenbrande/gipsite.git&#34; title=&#34;Gitlab&#34;&gt;Gitlab&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;link naar de repository op &lt;a href=&#34;https://github.com/bryceimma/bryceimma.github.io.git&#34; title=&#34;github&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bryceimma.github.io&#34; title=&#34;Website&#34;&gt;Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ovezicht-van-de-directory-structuur:fb1fa01592006b281b5dab056da87dae&#34;&gt;Ovezicht van de directory-structuur&lt;/h2&gt;
+
+&lt;h3 id=&#34;content-folder:fb1fa01592006b281b5dab056da87dae&#34;&gt;content folder&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;content folder&lt;/li&gt;
+&lt;li&gt;posts&lt;/li&gt;
+&lt;li&gt;categories&lt;/li&gt;
+&lt;li&gt;Software&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Ik koos deze structuur omdat hij makkelijk is om bepaalde taken te groeperen.&lt;/p&gt;
+
+&lt;h3 id=&#34;layout:fb1fa01592006b281b5dab056da87dae&#34;&gt;layout&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;dafault&lt;/li&gt;
+&lt;li&gt;partials (heel belangrijk voor het maken van pagina&amp;rsquo;s&lt;/li&gt;
+&lt;li&gt;index.html (belangrijk als basis voor pagina&amp;rsquo;s)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In deze map wordt de layout van de site samengesteld. Deze files zijn gekopiëerd van het thema &amp;lsquo;material-design&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;Het moeilijkste was de layout. Na verloop van tijd wende dit wel en begon het te lukken. Maar ook niet alles wil lukken. Bijvoorbeeld de pagina &amp;lsquo;Over.html&amp;rsquo; heb ik handmatig moeten maken en in de public map zetten omdat ik dit niet klaar kreeg in hugo, om deze pagina te laten genereren.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
